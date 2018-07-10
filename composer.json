@@ -1,16 +1,12 @@
 {
   "name": "kehittamo/kehittamo-seravo-library",
-  "version": "master",
+  "description": "This repository holds reusable functionality for WordPress.",
   "type": "wordpress-plugin", 
-  "license": "MIT",
-  "minimum-stability": "stable",
-  "source": {
-    "url": "https://github.com/kehittamo/kehittamo-seravo-library",
-    "type": "git",
-    "reference": "master"
-  },
+  "license": "GPL-2.0-or-later",
   "require": {
     "php": ">=5.4.0",
     "composer/installers": "~1.0"
-  }
+  },
+  "minimum-stability": "dev",
+	"prefer-stable": true
 }
